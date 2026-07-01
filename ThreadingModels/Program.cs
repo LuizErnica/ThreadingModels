@@ -8,7 +8,7 @@ namespace ThreadingModels
         private static Lock _lock = new(); // Lock object for synchronizing access to the shared counter
         private delegate void IncrementTest(); // Delegate type for incrementing the counter, used to define the method signature for increment operations
         private const int _THREAD_NUM = 10; // Number of threads to create for concurrent execution
-        private const int _ITERATIONS = 100000; // Number of increments each thread will perform on the shared counter
+        private const int _ITERATIONS = 1000000; // Number of increments each thread will perform on the shared counter
 
         /// <summary>
         /// Increments the internal counter by 100,000.
