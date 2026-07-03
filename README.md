@@ -1,18 +1,18 @@
 # Threading Models (.NET)
 
-> Estudo prático dos principais modelos de criação e gerenciamento de threads no .NET, demonstrando diferentes abordagens para execução concorrente, paralelismo e programação assíncrona em C#.
+> A practical study of the main threading models available in .NET, demonstrating different approaches to concurrency, parallelism, and asynchronous programming in C#.
 
-## 📚 Sobre o Projeto
+## 📚 About the Project
 
-Este repositório reúne exemplos práticos dos principais modelos de concorrência disponíveis na plataforma .NET.
+This repository contains practical examples of the primary concurrency models available in the .NET platform.
 
-O objetivo é comparar as diferentes abordagens, demonstrando quando utilizar cada uma delas, suas vantagens, limitações e impacto na escrita de aplicações modernas.
+Its purpose is to compare different approaches, showing when each one should be used, along with their advantages, limitations, and impact on modern application development.
 
-O projeto possui caráter educacional e serve como material de estudo para desenvolvedores que desejam compreender melhor o funcionamento de threads, tarefas e programação assíncrona.
+This project is intended for educational purposes and serves as a learning resource for developers who want to better understand threads, tasks, and asynchronous programming.
 
 ---
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
 - .NET
 - C#
@@ -24,9 +24,9 @@ O projeto possui caráter educacional e serve como material de estudo para desen
 
 ---
 
-## 📂 Modelos Demonstrados
+## 📂 Threading Models Covered
 
-O projeto aborda exemplos utilizando:
+The project includes examples using:
 
 - ✅ Thread
 - ✅ ThreadPool
@@ -34,95 +34,95 @@ O projeto aborda exemplos utilizando:
 - ✅ async / await
 - ✅ Parallel.For
 - ✅ Parallel.ForEach
-- ✅ PLINQ (quando aplicável)
+- ✅ PLINQ (when applicable)
 - ✅ CancellationToken
 - ✅ Wait / WaitAll / WhenAll
 - ✅ ContinueWith
-- ✅ Sincronização entre threads
+- ✅ Thread synchronization
 
-*(A lista pode ser expandida conforme novos exemplos forem adicionados.)*
-
----
-
-## 🎯 Objetivos
-
-- Entender a diferença entre concorrência e paralelismo
-- Aprender quando criar uma Thread manualmente
-- Utilizar o ThreadPool corretamente
-- Trabalhar com a Task Parallel Library
-- Utilizar programação assíncrona moderna
-- Comparar desempenho entre diferentes abordagens
-- Compreender boas práticas de multithreading
+*(The list may expand as new examples are added.)*
 
 ---
 
-## ▶️ Executando o Projeto
+## 🎯 Objectives
 
-Clone o repositório:
+- Understand the difference between concurrency and parallelism
+- Learn when to create a Thread manually
+- Use the ThreadPool correctly
+- Work with the Task Parallel Library
+- Apply modern asynchronous programming
+- Compare the performance of different approaches
+- Understand multithreading best practices
+
+---
+
+## ▶️ Running the Project
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/LuizErnica/ThreadingModels.git
 ```
 
-Entre na pasta:
+Navigate to the project folder:
 
 ```bash
 cd ThreadingModels
 ```
 
-Execute:
+Run the application:
 
 ```bash
 dotnet run
 ```
 
-Ou abra a solução no Visual Studio e execute o projeto desejado.
+Or open the solution in Visual Studio and run the desired project.
 
 ---
 
-## 📖 Conceitos Abordados
+## 📖 Concepts Covered
 
-- Processos x Threads
+- Processes vs. Threads
 - Thread Scheduling
 - Context Switching
 - ThreadPool
 - Task Scheduler
-- CPU-bound x I/O-bound
+- CPU-bound vs. I/O-bound operations
 - Deadlocks
 - Race Conditions
 - Synchronization
 - Locks
 - Cancellation
-- Async Programming
+- Asynchronous Programming
 
 ---
 
-## 📊 Comparação Geral
+## 📊 General Comparison
 
-| Modelo | Recomendado | Cenário |
-|---------|-------------|----------|
-| Thread | Casos específicos | Controle total da thread |
-| ThreadPool | Sim | Tarefas rápidas e repetitivas |
-| Task | Sim | Programação moderna |
-| async/await | Sim | Operações de I/O |
-| Parallel.For | Sim | Processamento paralelo |
-| PLINQ | Sim | Consultas paralelas |
-
----
-
-## 🎓 Público-alvo
-
-Este projeto é indicado para:
-
-- Estudantes de C#
-- Desenvolvedores .NET
-- Preparação para entrevistas técnicas
-- Estudos sobre concorrência
-- Aprendizado da Task Parallel Library
+| Model | Recommended | Typical Scenario |
+|---------|-------------|------------------|
+| Thread | Specific cases | Full control over thread execution |
+| ThreadPool | Yes | Short-lived, repetitive tasks |
+| Task | Yes | Modern concurrent programming |
+| async/await | Yes | I/O-bound operations |
+| Parallel.For | Yes | CPU-intensive parallel processing |
+| PLINQ | Yes | Parallel LINQ queries |
 
 ---
 
-## 📁 Estrutura
+## 🎓 Target Audience
+
+This project is intended for:
+
+- C# students
+- .NET developers
+- Technical interview preparation
+- Concurrency and multithreading studies
+- Learning the Task Parallel Library
+
+---
+
+## 📁 Project Structure
 
 ```text
 ThreadingModels
@@ -136,23 +136,23 @@ ThreadingModels
 └── README.md
 ```
 
-*(A estrutura pode variar conforme a evolução do projeto.)*
+*(The structure may change as the project evolves.)*
 
 ---
 
-## 💡 Aprendizados
+## 💡 Learning Outcomes
 
-Durante os exemplos é possível observar:
+Through these examples, you will learn:
 
-- Diferenças entre execução síncrona e assíncrona
-- Utilização eficiente dos recursos da CPU
-- Ganhos de desempenho em operações paralelas
-- Custos da criação manual de threads
-- Benefícios da Task Parallel Library
+- The differences between synchronous and asynchronous execution
+- Efficient CPU resource utilization
+- Performance gains from parallel processing
+- The overhead of manually creating threads
+- The benefits of the Task Parallel Library
 
 ---
 
-## 📚 Referências
+## 📚 References
 
 - Microsoft Learn — Task Parallel Library
 - Microsoft Learn — async / await
@@ -161,7 +161,7 @@ Durante os exemplos é possível observar:
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 **Luiz Henrique Érnica**
 
@@ -169,6 +169,6 @@ GitHub: https://github.com/LuizErnica
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto foi desenvolvido para fins de estudo e aprendizado.
+This project was created for educational and learning purposes.
